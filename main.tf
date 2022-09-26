@@ -32,14 +32,14 @@ data "http" "example" {
   }
 }
 
-provider "aws" {
+provider "azurerm" {
  alias  = "west"
  access_key = var.access_key
  secret_key = var.secret_key
  region     = var.region
 }
 
-provider "aws" {
+provider "vshpere" {
  access_key = var.access_key
  secret_key = var.secret_key
  region     = var.region
