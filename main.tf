@@ -32,19 +32,24 @@ data "http" "example" {
   }
 }
 
-provider "azurerm" {
- alias  = "west"
- access_key = var.access_key
- secret_key = var.secret_key
- region     = var.region
-}
-
 provider "vsphere" {
  access_key = var.access_key
  secret_key = var.secret_key
  region     = var.region
 }
 
+
+provider "  vsphere   " {
+ access_key = var.access_key
+ secret_key = var.secret_key
+ region     = var.region
+}
+
+provider "   vsphere  " {
+ access_key = var.access_key
+ secret_key = var.secret_key
+ region     = var.region
+}
 provider "lightstep" {
   api_key         = var.lightStepKey
   organization    = var.lightstepOrg
