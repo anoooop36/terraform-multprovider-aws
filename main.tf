@@ -85,5 +85,5 @@ variable "sampleTags" {
 
 variable "ebsSizes" {
   type = list(number)
-  default = [40, 80, 120]
+  default = [40, 80, 100]
 }
